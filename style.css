@@ -1,0 +1,53 @@
+:root {
+  --dark-bg: rgba(0, 0, 0, 0.95)
+}
+/* #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+} */
+
+html, body {
+  margin: 0;
+  height: 100%;
+  /* background-color: var(--dark-bg); */
+  font-family: 'Roboto', sans-serif;
+  color: #10dfdf;
+}
+p {
+  color: #10dfdf;
+}
+main{
+  /* z-index: 1; */
+  color: #10dfdf;
+  text-align: center;
+  width: 100vw
+}
+h1 {
+  /* display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  font-weight: bold;
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #b00b69;
+}
+#bg {
+  height: 100%;
+  width: 100%;
+  /* display: block; */
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  /* z-index: -1; */
+}
+.collapsible-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
