@@ -1,6 +1,7 @@
 :root {
   --dark-bg: rgba(0, 0, 0, 0.95);
   --cyan: #10dfdf;
+  --pink: #b00b69;
 }
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -36,7 +37,7 @@ h1 {
   margin-inline-end: 0px; */
   font-weight: bold;
   font-family: 'UnifrakturMaguntia', cursive;
-  color: #b00b69;
+  color: var(--pink);
 }
 #bg {
   height: 100%;
@@ -58,6 +59,20 @@ h1 {
   bottom: 10px;
   right: 10px;
   z-index: 1;
+  color: white;
+  /* background-color: white; */
+  background-color: var(--pink);
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
   color: var(--cyan);
-  background-color: white;
+}
+
+a:hover {
+  color: var(--pink);
 }
